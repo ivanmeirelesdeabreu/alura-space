@@ -1,0 +1,54 @@
+import eyed3
+
+# Defina o caminho para o arquivo .mp3
+file_path = "caminho/para/o/arquivo.mp3"
+
+# Carregue o arquivo MP3
+audiofile = eyed3.load(file_path)
+
+# Verifique se o arquivo foi carregado corretamente
+if audiofile is not None:
+    # Obtenha as tags do arquivo
+    tags = audiofile.tag
+
+    # Exemplo de leitura das tags existentes
+    print("Título: ", tags.title)
+    print("Artista: ", tags.artist)
+    print("Álbum: ", tags.album)
+    print("Ano: ", tags.year)
+
+    # Exemplo de edição das tags
+    tags.title = "Nova música"
+    tags.artist = "Novo artista"
+    tags.album = "Novo álbum"
+    tags.year = 2023
+
+    # Salve as alterações
+    audiofile.tag.save()
+    print("As tags foram atualizadas com sucesso.")
+else:
+    print("O arquivo não foi carregado corretamente.")
+
+//////////////////////////////////////////////////////////////////
+from mutagen import File
+
+file_path = "caminho/para/o/arquivo.flac"
+audiofile = File(file_path)
+
+if audiofile is not None:
+    # Verificar se as tags estão presentes
+    if "title" in audiofile:
+        print("Título: ", audiofile["title"][0])
+    else:
+        print("Tag de título não encontrada.")
+
+    if "artist" in audiofile:
+        print("Artista: ", audiofile["artist"][0])
+    else:
+        print("Tag de artista não encontrada.")
+
+    # E assim por diante para outras tags que você queira acessar
+
+else:
+    print("O arquivo não foi carregado corretamente.")
+
