@@ -52,3 +52,6 @@ if audiofile is not None:
 else:
     print("O arquivo não foi carregado corretamente.")
 
+////////////////////////////////////////////////////////////////////////
+git push -u origin master
+
