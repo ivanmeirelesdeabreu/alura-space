@@ -1,0 +1,9 @@
+CAMINHO;TITULO;ARTISTA;ALBUM
+.\ABC - The Look Of Love (Part 1).mp3;TALB;The Lexicon Of Love.\ABC - The Look Of Love (Part 1).mp3;TPE1;ABC.\ABC - The Look Of Love (Part 1).mp3;TIT2;The Look Of Love (Part 1)
+.\Alanis Morissette - That I Would Be Good.mp3;TALB;MTV Unplugged.\Alanis Morissette - That I Would Be Good.mp3;TPE1;Alanis Morissette.\Alanis Morissette - That I Would Be Good.mp3;TIT2;That I Would Be Good
+.\Alphabeat - Q & A.mp3;TPE1;Alphabeat.\Alphabeat - Q & A.mp3;TALB;The Spell.\Alphabeat - Q & A.mp3;TIT2;Q & A
+.\FLAC\01 - Baby's Arms.flac;album;['Smoke Ring For My Halo'].\FLAC\01 - Baby's Arms.flac;title;["Baby's Arms"].\FLAC\01 - Baby's Arms.flac;artist;['Kurt Vile']
+.\FLAC\02 - Jesus Fever.flac;album;['Smoke Ring For My Halo'].\FLAC\02 - Jesus Fever.flac;title;['Jesus Fever'].\FLAC\02 - Jesus Fever.flac;artist;['Kurt Vile']
+.\FLAC\03 - Puppet to the  Man.flac;album;['Smoke Ring For My Halo'].\FLAC\03 - Puppet to the  Man.flac;title;['Puppet to the  Man'].\FLAC\03 - Puppet to the  Man.flac;artist;['Kurt Vile']
+.\teste\Alanis Morissette - That I Would Be Good.mp3;TALB;MTV Unplugged.\teste\Alanis Morissette - That I Would Be Good.mp3;TPE1;Alanis Morissette.\teste\Alanis Morissette - That I Would Be Good.mp3;TIT2;That I Would Be Good
+.\teste\Alphabeat - Q & A.mp3;TPE1;Alphabeat.\teste\Alphabeat - Q & A.mp3;TALB;The Spell.\teste\Alphabeat - Q & A.mp3;TIT2;Q & A
