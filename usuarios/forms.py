@@ -33,7 +33,7 @@ class CadastroForms(forms.Form):
         ),
     )
     email = forms.EmailField(
-        label="email",
+        label="Email",
         required=True,
         max_length=100,
         widget=forms.EmailInput(
