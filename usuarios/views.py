@@ -25,7 +25,7 @@ def login(request):
             return redirect("index")
 
         else:
-            messages.success(request, "Erro ao efetura login!")
+            messages.error(request, "Erro ao efetuar login!")
             return redirect("login")
 
     # código omitido
